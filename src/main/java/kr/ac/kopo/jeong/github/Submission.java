@@ -6,7 +6,7 @@ public class Submission {
     private String filename;
     private LocalDateTime submittedAt;
 
-    public Submission(String filename) {
+    public Submission(String filename, LocalDateTime now) {
         this.filename = filename;
         this.submittedAt = LocalDateTime.now();
     }
